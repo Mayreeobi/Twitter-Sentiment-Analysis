@@ -10,11 +10,15 @@ In the [Jupyter Notebook](https://github.com/Mayreeobi/Twitter-Sentiment-Analysi
 To accomplish the project goals, a combination of Python libraries was utilized:
 - Pandas: Employed for effective data cleaning and manipulation.
 - NLTK (Natural Language Toolkit): Utilized for advanced natural language processing tasks.
-- TextBlob: Chosen for sentiment analysis, assigning Subjectivity and Polarity scores to each tweet.
+- TextBlob: Chosen for sentiment analysis, assigning Polarity scores to each tweet.
 - Matplotlib, Seaborn & WordCloud: These libraries played a crucial role in exploring and visualizing the dataset.
 
-## Sentiment Analysis:
-The sentiment analysis aspect relied on TextBlob, which evaluates text by providing Polarity scores. The Polarity score became the basis for categorizing tweets into Positive, Negative, or Neutral sentiments. Specifically, a Polarity score below 0 indicated negativity, a score of 0 denoted neutrality, and a score above 0 signified positivity.
+## Key Steps:
+* Data Cleaning and Manipulation: Pandas was employed to effectively clean and manipulate the dataset, ensuring it was ready for analysis.
+
+* Sentiment Analysis: Utilizing NLTK and TextBlob, I conducted sentiment analysis on the tweets, assigning Polarity scores to each tweet. The Polarity score became the basis for categorizing tweets into Positive, Negative, or Neutral sentiments. Specifically, a Polarity score below 0 indicated negativity, a score of 0 denoted neutrality, and a score above 0 signified positivity.
+
+* Visualization: Matplotlib, Seaborn, and WordCloud were instrumental in exploring and visualizing the dataset. WordClouds were generated to highlight the most commonly used words associated with each sentiment category, providing intuitive visual representations of sentiment distributions.
 
 ## Remark: 
 The sentiment analysis revealed intriguing findings within the dataset. A notable portion, accounting for 37.1% of the tweets, exhibited a dual nature, being classified as both positive and neutral. This suggests a nuanced sentiment among Twitter users, where expressions may carry elements of positivity while maintaining an overall neutral tone. In contrast, approximately 25.74% of the tweets were categorized as negative, indicating a substantial presence of unfavorable sentiments within the dataset.
